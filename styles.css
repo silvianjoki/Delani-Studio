@@ -5,7 +5,12 @@
     height: 1000px;
     color: white;
     text-align: center;
-    
+
+}
+.heading .h1 .h2{
+    color: white;
+    padding: 0% 1rem;
+    font-size: 4 rem;
 }
 
 
