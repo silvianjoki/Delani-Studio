@@ -3,9 +3,12 @@
     background-image: url(/Images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    height: 700px;
     color: white;
     text-align: center;
+    padding: 5rem;
+    font-family: catamaran; 
+    font-weight: bolder;
 
 }
 .heading .h1 .h2{
