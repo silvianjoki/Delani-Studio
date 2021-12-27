@@ -20,9 +20,27 @@
 .section-services {
     background-image: url(/Images/backgrounds/s_image.jpg);  
     background-position: center;
+    background-position: fixed;
     height:500px;
     background-repeat:no-repeat;
     position: center;
-    text-align: center;
+    text-align: center
     
+    
+}
+.services h2, p{
+    color: white;
+    text-align: center;    
+    position: relative;
+    padding: 1rem 0;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-height: 800px;
+    max-width: 800px;
+
+
+
 }
