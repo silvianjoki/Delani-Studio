@@ -88,3 +88,9 @@
 .section-contacts{
     text-align: center;
 }
+
+/* footer section */
+.footer{
+    align-items: center;
+    text-align: center;
+}
