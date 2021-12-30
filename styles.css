@@ -28,11 +28,14 @@
 /* About section */
 .About {
     text-align: center;
-    font-size: 4 rem;
+    font-family: catamaran Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-    padding: 0rem;
-    margin-top: 1 rem;
+    padding: 2rem;
+    margin-top: 2 rem;
     margin-bottom: 1 rem;
+    height: 350px;
+    width: 100%;
+    font-size: large;
 
 }
 
