@@ -84,7 +84,16 @@
 }
 
 /* section-what-we-do */
+.section-title{
+    text-align: center;
+}
 .section-what-we-do{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: white;
+    column-span: all;
     text-align: center;
 }
 
