@@ -6,16 +6,24 @@
     height: 700px;
     color: white;
     text-align: center;
-    padding: 5rem;
-    font-family: catamaran; 
-    font-weight: bolder;
+    /* padding: 5rem; */
+    font-family: catamaran Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 
 }
 .heading .h1 .h2{
     color: white;
     padding: 0% 1rem;
     font-size: 4 rem;
+    font-weight: lighter;
 }
+
+.heading .h3{
+    font-size: 1 rem;
+    padding-top: 2rem;
+
+}
+
 
 /* About section */
 .About {
@@ -48,7 +56,7 @@
     margin-top: 1rem;
     text-align: center;    
     position: relative;
-    padding: 5rem 0;
+    padding: 3rem 0;
     align-items: center;
     margin: auto;
     display: flex;
