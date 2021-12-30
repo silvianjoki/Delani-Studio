@@ -121,3 +121,27 @@
     align-items: center;
     text-align: center;
 }
+
+.section-icons .fa{
+        padding: 20px;
+        align-items: center;
+        font-size: 30px;
+        width: 20px;
+        margin-right: 50px
+        flex-direction:right;
+}
+.fa-twitter {
+    color: blue;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-pinterest {
+    color: rgb(207, 41, 77);
+}
