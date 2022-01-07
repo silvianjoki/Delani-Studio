@@ -33,6 +33,15 @@ $(document).ready(function(){
 
 // hover
 $(document).ready(function(){
+    $("#work1").mouseover(function(){
+        $("#overlay").show();
+    });
+    $("#work1").mouseout(function(){
+        $("#overlay").hide();
+    });
+});
+
+$(document).ready(function(){
     $("#work2").mouseover(function(){
         $("#overlay2").show();
     });
@@ -64,7 +73,7 @@ $(document).ready(function(){
         $("#overlay5").show();
     });
     $("#work5").mousout(function(){
-        $("#overlay5").show();
+        $("#overlay5").hide();
     });
 });
 
@@ -73,7 +82,7 @@ $(document).ready(function(){
         $("#overlay6").show();
     });
     $("#work6").mousout(function(){
-        $("#overlay6").show();
+        $("#overlay6").hide();
     });
 });
 
@@ -82,7 +91,7 @@ $(document).ready(function(){
         $("#overlay7").show();
     });
     $("#work6").mousout(function(){
-        $("#overlay7").show();
+        $("#overlay7").hide();
     });
 });
 
@@ -91,7 +100,7 @@ $(document).ready(function(){
         $("#overlay8").show();
     });
     $("#work8").mousout(function(){
-        $("#overlay8").show();
+        $("#overlay8").hide();
     });
 });
 
@@ -100,7 +109,7 @@ $(document).ready(function(){
         var name =$("input").val();
         var email = $("input").val();
         var message = $ ("comment").val ();
-        if (name && email){
+        if (name && email && message){
             alert(name+", we have received your message. Thank you for reaching out to us.");
         }
         else{
