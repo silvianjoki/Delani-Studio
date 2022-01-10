@@ -97,18 +97,25 @@
 }
 .section-what-we-do{
     column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
+    row-gap: 30px;
     column-rule-color: white;
-    column-span: all;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     text-align: center;
-    /* display: none; */
+    position:relative;
+    column-gap: 30px;
 }
 
-.section-what-we-do .p{
+
+.show1, .show2, .show3{
     display:none;
+    text-size-adjust: 3rem;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align:center;
+    justify-content: center;
 }
+
 
 /* gallery */
 .section-portfolio {
@@ -127,11 +134,14 @@
 .text{
     text-align: center;
     display:none;
-    background-color: rgba(225,225,225, 0.4);
+    background-color: rgba(139, 134, 134, 0.4);
     width: 10rem;
     height: 5rem;
-    margin: -10rem 4rem;
+    margin: -10rem 3rem;
+    position:top;
+    margin-top: 0%;
 }
+
 
 .section-portfolio .h2 {
     text-align: center;
