@@ -76,21 +76,21 @@
     <section class="section-what-we-do">
         <!-- design element -->
             <div class="col">                
-                <img id="hide1" src="/Images/services_icons/design_icon.png">                
+                <img class="hide1" src="/Images/services_icons/design_icon.png">                
                 <p>DESIGN</p>
                 <p class='show1'>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
                 <p>Throughout our project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
         <!-- development element -->
             <div class="col">
-                <img id="hide2" src="/Images/services_icons/dev_icon.png">
+                <img class="hide2" src="/Images/services_icons/dev_icon.png">
                 <p>DEVELOPMENT</p>
                 <p class='show2'>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                 <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as  test-driven development and pair programming.</p>
             </div>
         <!-- product management element -->
             <div class="col">
-                <img id="hide3" src="/Images/services_icons/product_icon.png">
+                <img class="hide3" src="/Images/services_icons/product_icon.png">
                 <p>PRODUCT MANAGEMENT</p>
                 <p class='show3'>Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
                 <p>This interactive process allows for changes as business requirements evolve.</p>
@@ -149,7 +149,7 @@
     <!-- Contact us section -->
     <section class="section-contacts">
             <h2>CONTACT US</h2>
-            <form class="contacts" on submit="return weWillReachOutSoon">
+            <form class="contacts" id="form" on submit="return weWillReachOutSoon">
                 <label for="name">
                     
                     <input id="name" type="text" name="name" placeholder="Name..." value="" required>
@@ -159,10 +159,10 @@
                     <input id="email" type="email" name="email" placeholder="Email..." value="" required>
                 </label>
                 <label for="message">
-            <br></br>
-            
+                    
                     <input id="message" type="text" name="message" placeholder="Your message here..." value="" required>
                 </label>
+                <button type="submit" onclick="receiveMessage()">Submit</button>
             </form>
             <br></br>
     </section>
@@ -187,6 +187,7 @@
 
 
     <!-- linking javascript -->
-    <script src="script.js"></script>
+    <script src="script.js"> </script>
+
 </body>
 </html>

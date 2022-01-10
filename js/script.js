@@ -1,3 +1,4 @@
+
 // what we do section
 $(document).ready(function(){
     $("#hide1").click(function(){
@@ -103,25 +104,15 @@ $(document).ready(function(){
         $("#overlay8").hide();
     });
 });
-
-
-    $("form#formValidity").submit(function(event){
-        var name =$("input").val();
-        var email = $("input").val();
-        var message = $ ("comment").val ();
-        if (name && email && message){
-            alert(name+", we have received your message. Thank you for reaching out to us.");
-        }
-        else{
-            alert ("Please input your name and email!");
-        }
-    })
-
-
-    var input = document.getElementById('message')
-    input.addEventListener('keyup', function(event){
-        if (event.code === 'Enter') {
-            event.preventDefault();
-            document.querySelector('form').submit ();
-        }
+    
+// button submit
+var form = document.getElementById('form')
+form.addEventListener('submit',function(event){
+    event.preventDefault() //prevent form from autosubmit
+    var name= document.getElementById('name').value
+        console.log(name)
+    var email= document.getElementById('email').value
+        console.log(email)
+    var message= document.getElementById('message').value
+        console.log(message)
     })

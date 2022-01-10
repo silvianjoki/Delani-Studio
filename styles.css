@@ -103,9 +103,10 @@
     column-rule-color: white;
     column-span: all;
     text-align: center;
+    /* display: none; */
 }
 
-.show1, .show2, .show3{
+.section-what-we-do .p{
     display:none;
 }
 
