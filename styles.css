@@ -53,7 +53,7 @@
 
 /* services section */
 .section-services {
-    background-image: url(/Images/backgrounds/s_image.jpg);  
+    background-image: url(Images/backgrounds/s_image.jpg);  
     background-position: center;
     background-position: fixed;
     height:400px;
