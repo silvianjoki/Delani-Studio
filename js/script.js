@@ -10,10 +10,9 @@ form.addEventListener('submit',function(event){
     var message= document.getElementById('message').value;
     console.log(message)
 
-    if(name == '' || email== '' ||message=='') {
+    if(name == '' ||email== '' ||message=='') {
         Swal.fire('please fill in missing information');
     }else(
         Swal.fire('Hello, we have received your message. Thank you for reaching out to us.')
     )
     });
-

@@ -50,7 +50,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("work4").mouseenter(function(){
+    $("#work4").mouseenter(function(){
         $("#overlay4").show();
     });
     $("#work4").mouseleave(function(){
@@ -76,12 +76,13 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
-    $("#work7").mouseenter(function(){
-        $("#overlay7").show();
+    $('#work7').mouseenter(function(){
+        $('#overlay7').show();
     });
-    $("#work6").mouseleave(function(){
-        $("#overlay7").hide();
+    $('#work7').mouseleave(function(){
+        $('#overlay7').hide();
     });
 });
 

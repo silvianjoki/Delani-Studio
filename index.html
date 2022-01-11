@@ -108,7 +108,6 @@
     <!-- portfolio section -->
     <section class="section-portfolio">     
             <h2>PORTFOLIO</h2>
-            <!-- <br></br> -->
             <div class="row" id="portfolio">
                 <div class="col-md-3" id="work1">
                     <img src="Images/portfolio/work1.jpg" alt="work1">
@@ -124,10 +123,10 @@
                 </div>
                 <div class="col-md-3" id="work4">
                     <img src="Images/portfolio/work4.jpg" alt="work4">
-                    <p id="overlay4" class="text">Black studio </p>
+                    <p id="overlay4" class="text">Black studio</p>
                 </div>
             </div>
-            <!-- <br></br> -->
+            
             <div class="row" id="portfolio">
                 <div class="col-md-3" id="work5">
                     <img src="Images/portfolio/work5.jpg" alt="work5">
@@ -154,18 +153,21 @@
     <section class="section-contacts">
         <h2>CONTACT US</h2>
         <form action="https://gmail.us20.list-manage.com/subscribe/post?u=1df07ef9ca085358d4acce3aa&amp;id=787709db8f" 
-        method="post" id="form" name="mc-embedded-subscribe-form" 
-        class="validate" target="_blank" novalidate>        
+        method="post" id="form" 
+        name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>  
             <label for="name">                    
-                <input id="NAME" type="text" name="name" placeholder="Name..." value="" required>
+                <input id="name" type="text" name="NAME" placeholder="Name..." value="" required>
             </label>
             <label for="email">
-                <input id="EMAIL" type="email" name="EMAIL" placeholder="Email..." value="" required>
+                <input id="email" type="email" name="EMAIL" placeholder="Email..." value="" required>
             </label>
+            <br></br>
             <label for="message">
-                <input id="MESSAGE" type="text" name="MESSAGE" placeholder="Your message here..." value="" required>
+                <input id="message" type="text" name="MESSAGE" placeholder="Your message here..." value="" required>
             </label>
+            <br></br>
             <button type="submit" onclick="receiveMessage()">Submit</button>
+            
         </form>
         <br></br>
     </section>
