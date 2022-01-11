@@ -1,6 +1,6 @@
 
 // button submit
-var form = document.getElementById('form')
+var form = document.getElementById('mc-embedded-subscribe-form')
 form.addEventListener('submit',function(event){
     event.preventDefault() //prevent form from autosubmit
     var name= document.getElementById('name').value;
